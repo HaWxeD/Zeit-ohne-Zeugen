@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Station</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="station-header">
+      <a
+        href="index.html"
+        class="station-logo-link"
+        aria-label="Zur Stationsübersicht"
+      >
+        <img
+          src="bilder/zeit-ohne-zeugen-logo.png"
+          alt="Zeit ohne Zeugen"
+          class="station-logo"
+        />
+      </a>
+
+      <h1 id="station-title">Station</h1>
+    </header>
+
+    <main>
+      <article class="station-page">
+        <section id="classic-content">
+          <section>
+            <h2>Worum geht es?</h2>
+            <p id="station-introduction"></p>
+          </section>
+
+          <section id="additional-information-section" hidden>
+            <h2>Historischer Hintergrund</h2>
+            <p id="additional-information"></p>
+          </section>
+
+          <section id="final-content" class="final-content" hidden>
+            <h2 id="final-heading"></h2>
+            <p id="final-description" class="final-description"></p>
+
+            <div class="final-instructions">
+              <h3>Was machst du dort?</h3>
+              <ol id="final-instruction-list"></ol>
+            </div>
+
+            <p id="final-note" class="final-note"></p>
+          </section>
+
+          <section id="tasks-section">
+            <h2>Aufgaben</h2>
+            <ol id="task-list"></ol>
+          </section>
+
+          <section id="resources-section">
+            <h2 id="resources-heading">Materialien und Links</h2>
+            <div id="resource-list"></div>
+
+            <p class="external-note">
+              Externe Inhalte öffnen sich in einem neuen Tab. Diese Stationsseite
+              bleibt dabei geöffnet.
+            </p>
+          </section>
+
+          <section id="confirmation-section" class="confirmation-section" hidden>
+            <h2>Bevor ihr die Station abschließt</h2>
+
+            <label class="confirmation-label">
+              <input type="checkbox" id="confirmation-checkbox" />
+              <span id="confirmation-text"></span>
+            </label>
+
+            <p id="completion-hint" class="completion-hint"></p>
+          </section>
+        </section>
+
+        <section id="guided-section" hidden>
+          <div id="guided-progress" class="guided-progress"></div>
+          <div id="guided-content" class="guided-content"></div>
+
+          <div class="guided-actions">
+            <button id="guided-reset-button" class="secondary-button" type="button">
+              Station neu starten
+            </button>
+
+            <button id="guided-next-button" class="station-button" type="button">
+              Weiter
+            </button>
+          </div>
+        </section>
+
+        <section id="station-actions" class="station-actions">
+          <button id="complete-button" class="station-button" type="button">
+            Station abschließen
+          </button>
+
+          <a href="index.html" class="secondary-link">
+            Zur Stationsübersicht
+          </a>
+        </section>
+      </article>
+    </main>
+
+    <script src="stations.js"></script>
+    <script src="station.js"></script>
+  </body>
+</html>
