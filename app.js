@@ -147,28 +147,52 @@ function openPrivacyNotice() {
   openModal(
     "Hinweis zum Datenschutz",
     `
-      <p>
-        Für die Nutzung dieser Anwendung ist keine Anmeldung erforderlich.
-      </p>
+      <h3>Lokale Speicherung</h3>
+<p>
+  Diese Anwendung benötigt keine Anmeldung und erhebt innerhalb der Anwendung
+  keine Namen, E-Mail-Adressen oder sonstigen Kontaktdaten.
+</p>
 
-      <p>
-        Der Bearbeitungsstand der Stationen sowie freiwillige Eingaben werden
-        ausschließlich lokal im Browser des verwendeten Geräts gespeichert.
-        Eine Übertragung dieser Inhalte an uns oder an einen zentralen Server
-        findet nicht statt.
-      </p>
+<p>
+  Bearbeitungsstände, Eingaben und Ergebnisse werden ausschließlich lokal
+  im Browser des verwendeten Geräts gespeichert. Hierfür verwendet die
+  Anwendung den lokalen Browserspeicher (localStorage).
+</p>
 
-      <p>
-        Die Anwendung erhebt insbesondere keine Namen, E-Mail-Adressen,
-        Foto-, Audio- oder Standortdaten.
-      </p>
+<p>
+  Diese lokal gespeicherten Daten werden durch die Anwendung nicht an uns
+  oder an andere Teilnehmende übermittelt. Sie können durch das Zurücksetzen
+  des Fortschritts oder durch das Löschen der Browserdaten entfernt werden.
+</p>
 
-      <p>
-        Beim Aufruf der Webseite können durch den jeweiligen Hostinganbieter
-        technisch notwendige Verbindungsdaten verarbeitet werden. Werden
-        externe Webseiten geöffnet, gelten die Datenschutzhinweise des
-        jeweiligen Anbieters.
-      </p>
+<h3>Hosting über GitHub Pages</h3>
+<p>
+  Diese Website wird über GitHub Pages bereitgestellt, einen Dienst von
+  GitHub. Beim Aufruf der Website wird eine Verbindung zu den Servern von
+  GitHub hergestellt. Dabei können technisch erforderliche Daten verarbeitet
+  werden. GitHub gibt insbesondere an, die IP-Adresse von Besucherinnen und
+  Besuchern von GitHub-Pages-Websites zu Sicherheitszwecken zu protokollieren
+  und zu speichern.
+</p>
+
+<h3>Externe Inhalte</h3>
+<p>
+  Einige Stationen enthalten Links zu externen Websites. Beim Öffnen eines
+  solchen Links gelten die Datenschutzbestimmungen des jeweiligen Anbieters.
+  Die externen Seiten werden erst aufgerufen, wenn der entsprechende Link
+  aktiv ausgewählt wird.
+</p>
+
+<h3>Keine Auswertung der Antworten</h3>
+<p>
+  Die innerhalb der Anwendung eingegebenen Antworten und Ergebnisse werden
+  derzeit nicht zentral gesammelt, ausgewertet oder an Lehrkräfte,
+  Projektverantwortliche oder andere Personen übermittelt.
+</p>
+
+<p>
+  Stand: August 2026
+</p>
     `,
   );
 }
