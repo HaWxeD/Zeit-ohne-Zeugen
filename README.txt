@@ -1,22 +1,13 @@
-Zeit ohne Zeugen – Version 1.0
+Zeit ohne Zeugen – Version 1.5
 
-Enthalten:
-- index.html
-- station.html
-- stations.js
-- app.js
-- station.js
-- style.css
+Neu in dieser Version:
+- Station „On Air“ als eigenständiges Quiz umgesetzt.
+- Alle 12 Karten sind gleichzeitig sichtbar.
+- Pro Karte Auswahl zwischen „NS-Zeit“ und „Gegenwart“.
+- Antworten können bis zur Auswertung jederzeit geändert werden.
+- Auswertung erst möglich, wenn alle 12 Karten zugeordnet wurden.
+- Nach der Auswertung erscheinen Punktzahl, Zitate, Einordnung und das Feedback aus dem Ausgangsmaterial.
+- Eine kurze freiwillige Abschlussreflexion ist enthalten.
+- Antworten und Reflexion werden nur lokal im Browser (localStorage) gespeichert.
 
-Wichtig:
-1. Kopiere den vorhandenen Ordner "bilder" mit dem Logo in diesen Projektordner.
-2. Die Logo-Datei muss unter "bilder/zeit-ohne-zeugen-logo.png" liegen.
-3. Öffne index.html über Live Server.
-
-Neu in Version 1.1:
-- „The Eye as Witness“ als geführte Station
-- Video-Link zur bpb
-- gemeinsamer Schritt für Ausstellung und VR
-- zwei verpflichtende Reflexionsfragen
-- Rückkehr zur Stationsübersicht bei geführten Stationen
-- Beschreibungstexte auf der Stationsübersicht
+Die übrigen Stationen aus Version 1.4 bleiben erhalten.

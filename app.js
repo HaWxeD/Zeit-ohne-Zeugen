@@ -145,9 +145,10 @@ function closeModal() {
 
 function openPrivacyNotice() {
   openModal(
-    "Hinweis zum Datenschutz",
+    "Datenschutzhinweise",
     `
-      <h3>Lokale Speicherung</h3>
+
+<h3>Lokale Speicherung</h3>
 <p>
   Diese Anwendung benötigt keine Anmeldung und erhebt innerhalb der Anwendung
   keine Namen, E-Mail-Adressen oder sonstigen Kontaktdaten.
@@ -191,7 +192,7 @@ function openPrivacyNotice() {
 </p>
 
 <p>
-  Stand: August 2026
+  Stand: September 2026
 </p>
     `,
   );
@@ -210,13 +211,15 @@ function openImprint() {
 
       <p>
         <strong>Anschrift:</strong><br>
-        Leostraße 21
+        BDKJ-Diözesanverband Paderborn e.V.<br>
+        Leostraße 21<br>
         33098 Paderborn
       </p>
 
       <p>
         <strong>Kontakt:</strong><br>
-        Nico Schnittger
+        Email: info@bdkj-paderborn.de<br>
+        Telefon: +49 5251 20 65-200
       </p>
     `,
   );
@@ -225,7 +228,7 @@ function openImprint() {
 if (resetButton) {
   resetButton.addEventListener("click", () => {
     const shouldReset = window.confirm(
-      "Möchtet ihr den gesamten Fortschritt wirklich zurücksetzen?",
+      "Möchtest du den gesamten Fortschritt wirklich zurücksetzen?",
     );
 
     if (!shouldReset) {
