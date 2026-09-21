@@ -236,7 +236,7 @@ const stations = [
         answer: "present",
         source: "Björn Höcke (AfD)",
         feedback:
-          "Das Zitat stammt aus der Gegenwart. Im Ausgangsmaterial wird es Björn Höcke (AfD) zugeordnet.",
+          "Das Zitat stammt aus der Gegenwart.",
       },
       {
         card: 2,
@@ -244,7 +244,7 @@ const stations = [
         answer: "ns",
         source: "Wahlkampfslogan der NSDAP",
         feedback:
-          "Das Zitat stammt aus der NS-Zeit. Im Ausgangsmaterial wird es als Wahlkampfslogan der NSDAP eingeordnet.",
+          "Das Zitat stammt aus der NS-Zeit.",
       },
       {
         card: 3,
@@ -253,7 +253,7 @@ const stations = [
         answer: "present",
         source: "Beatrix von Storch (AfD)",
         feedback:
-          "Das Zitat stammt aus der Gegenwart. Im Ausgangsmaterial wird es Beatrix von Storch (AfD) zugeordnet.",
+          "Das Zitat stammt aus der Gegenwart.",
       },
       {
         card: 4,
@@ -262,7 +262,7 @@ const stations = [
         answer: "present",
         source: "Björn Höcke (AfD)",
         feedback:
-          "Das Zitat stammt aus der Gegenwart. Im Ausgangsmaterial wird es Björn Höcke (AfD) zugeordnet.",
+          "Das Zitat stammt aus der Gegenwart.",
       },
       {
         card: 5,
@@ -271,7 +271,7 @@ const stations = [
         answer: "ns",
         source: "Adolf Hitler",
         feedback:
-          "Das Zitat stammt aus der NS-Zeit. Im Ausgangsmaterial wird es Adolf Hitler zugeordnet.",
+          "Das Zitat stammt aus der NS-Zeit.",
       },
       {
         card: 6,
@@ -280,7 +280,7 @@ const stations = [
         answer: "present",
         source: "Alexander Gauland (AfD)",
         feedback:
-          "Das Zitat stammt aus der Gegenwart. Im Ausgangsmaterial wird es Alexander Gauland (AfD) zugeordnet.",
+          "Das Zitat stammt aus der Gegenwart.",
       },
       {
         card: 7,
@@ -288,7 +288,7 @@ const stations = [
         answer: "ns",
         source: "Joseph Goebbels",
         feedback:
-          "Das Zitat stammt aus der NS-Zeit. Im Ausgangsmaterial wird es Joseph Goebbels zugeordnet.",
+          "Das Zitat stammt aus der NS-Zeit.",
       },
       {
         card: 8,
@@ -297,7 +297,7 @@ const stations = [
         answer: "ns",
         source: "Heinrich Himmler",
         feedback:
-          "Das Zitat stammt aus der NS-Zeit. Im Ausgangsmaterial wird es Heinrich Himmler zugeordnet.",
+          "Das Zitat stammt aus der NS-Zeit.",
       },
       {
         card: 9,
@@ -306,7 +306,7 @@ const stations = [
         answer: "present",
         source: "Björn Höcke (AfD)",
         feedback:
-          "Das Zitat stammt aus der Gegenwart. Im Ausgangsmaterial wird es Björn Höcke (AfD) zugeordnet.",
+          "Das Zitat stammt aus der Gegenwart.",
       },
       {
         card: 10,
@@ -315,7 +315,7 @@ const stations = [
         answer: "ns",
         source: "Joseph Goebbels",
         feedback:
-          "Das Zitat stammt aus der NS-Zeit. Im Ausgangsmaterial wird es Joseph Goebbels zugeordnet.",
+          "Das Zitat stammt aus der NS-Zeit.",
       },
       {
         card: 11,
@@ -323,7 +323,7 @@ const stations = [
         answer: "present",
         source: "Aussage auf einem AfD-Parteitag",
         feedback:
-          "Das Zitat stammt aus der Gegenwart. Im Ausgangsmaterial wird es einem AfD-Parteitag zugeordnet.",
+          "Das Zitat stammt aus der Gegenwart.",
       },
       {
         card: 12,
@@ -332,7 +332,7 @@ const stations = [
         answer: "ns",
         source: "Adolf Hitler",
         feedback:
-          "Das Zitat stammt aus der NS-Zeit. Im Ausgangsmaterial wird es Adolf Hitler zugeordnet.",
+          "Das Zitat stammt aus der NS-Zeit.",
       },
     ],
     reflectionPrompt:
@@ -422,7 +422,7 @@ const stations = [
         heading: "Der Abschied – WDR AR 1933–1945",
         paragraphs: [
           "Öffne jetzt auf deinem Smartphone oder Tablet die App „WDR AR 1933–1945“.",
-          "Wähle „Meine Freundin Anne Frank“ und anschließend „Der Abschied“. Starte das AR-Erlebnis und höre Jacque aufmerksam zu.",
+          "Wähle „Meine Freundin Anne Frank“ und anschließend „Die Freundschaft“. Starte das AR-Erlebnis und höre Jacque aufmerksam zu.",
           "Achte besonders auf den Moment, in dem Jacque das verlassene Zuhause der Familie Frank betritt.",
         ],
         instructions: [
