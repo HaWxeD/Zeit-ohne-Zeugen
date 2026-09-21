@@ -419,7 +419,7 @@ const stations = [
       },
       {
         type: "activity",
-        heading: "Der Abschied – WDR AR 1933–1945",
+        heading: "Die Freundschaft – WDR AR 1933–1945",
         paragraphs: [
           "Öffne jetzt auf deinem Smartphone oder Tablet die App „WDR AR 1933–1945“.",
           "Wähle „Meine Freundin Anne Frank“ und anschließend „Die Freundschaft“. Starte das AR-Erlebnis und höre Jacque aufmerksam zu.",
@@ -427,7 +427,7 @@ const stations = [
         ],
         instructions: [
           "Scrolle zu „Meine Freundin Anne Frank“ und wähle „Zu den Inhalten“.",
-          "Wechsle mit dem Pfeil nach rechts zu „Der Abschied“.",
+          "Wechsle mit dem Pfeil nach rechts zu „Die Freundschaft“.",
           "Tippe auf „AR starten“.",
         ],
         note: "Falls dort nur ein Play-Button angezeigt wird, öffne oben das Zahnrad und aktiviere „Augmented Reality“.",
